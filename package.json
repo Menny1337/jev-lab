@@ -1,0 +1,28 @@
+{
+  "name": "jev-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Small TypeScript experiments and sequential latency benchmarks for TypeSafe Jev",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "smoke": "tsx src/cli.ts smoke",
+    "batch": "tsx src/cli.ts batch",
+    "benchmark": "tsx src/cli.ts benchmark",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "https://github.com/typesafe-ai/typesafe-sdk-js/releases/download/v0.6.0/typesafe-ai-sdk-0.6.0.tgz",
+    "dotenv": "^17.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.3"
+  }
+}

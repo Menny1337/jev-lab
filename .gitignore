@@ -1,4 +1,14 @@
 # Logs
+results/
+credentials/
+secrets/
+credentials*.json
+secrets*.json
+.npmrc
+*.pem
+*.key
+*.pfx
+*.p12
 logs
 *.log
 npm-debug.log*

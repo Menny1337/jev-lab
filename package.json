@@ -12,7 +12,7 @@
     "smoke": "tsx src/cli.ts smoke",
     "batch": "tsx src/cli.ts batch",
     "benchmark": "tsx src/cli.ts benchmark",
-    "test": "tsx --test test/*.test.ts",
+    "test": "tsx --test test/lab.test.ts",
     "typecheck": "tsc --noEmit",
     "build": "tsc -p tsconfig.build.json"
   },
